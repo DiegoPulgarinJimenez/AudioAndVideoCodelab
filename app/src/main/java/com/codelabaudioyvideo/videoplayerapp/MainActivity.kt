@@ -25,9 +25,9 @@ class MainActivity : AppCompatActivity() {
         playerView.player = player
 
         // Definir la URI del video (puedes cambiar la URL por un video local)
-        val videoUri = Uri.parse("android.resource://" + packageName + "/" + R.raw.samplevideo)
+        val videoUri = Uri.parse("android.resource://" + packageName + "/" + R.raw.samplevideo2)
 
-        // val videoUri = Uri.parse("https://www.youtube.com/watch?v=b3cZqWoqweU&ab_channel=StereophonicsVEVO")
+        // val videoUri = Uri.parse("http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4")
 
         // Preparar el reproductor con el archivo de video
         val mediaItem = androidx.media3.common.MediaItem.fromUri(videoUri)
